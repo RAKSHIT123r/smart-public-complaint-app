@@ -1535,7 +1535,7 @@ function userLogout() {
 // AI CHATBOT FUNCTIONS
 // ===============================
 // AI Backend API URL - Update this if your backend runs on a different port or URL
-const AI_API_URL = 'http://localhost:5001/api/ai/chat';
+const AI_API_URL = 'https://smart-public-complaints-backend.onrender.com/api/ai/chat';
 let chatHistory = [];
 let isWaitingForResponse = false;
 
